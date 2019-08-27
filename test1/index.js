@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("button").on("click",function(){
+        $.routing("/",{x:"2",y:"3"},{
+            assets:{
+                js:true,
+                css:true,
+            }
+        });
+    })
+    $.scripts(["/x","/y"]);
+});

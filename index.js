@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("button").on("click",function(){
+        $.routing("/test1/",{parm1:"hello",parm2:"exmple"},{
+            assets:{
+                css:true,
+            }
+        });
+    })
+    $.scripts(["x","y"],function(){
+        console.log(1);
+    });
+});

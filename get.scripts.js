@@ -72,7 +72,7 @@ $.assets = function get(url,type) {
   return new Promise((resolve, reject) => {
       $.ajax(parm).done(function(data){
         resolve(data);
-      }).fail(function(){
+      }).fail(function(data){
         reject(data);
       })
   });

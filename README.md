@@ -1,9 +1,10 @@
 # GS-SPA
  SPA (~5kb) via (JQuery/AJAX) version beta
  
-Demo:
--   Basic:  [link](https://codepen.io/OxiDev/pen/JVYGzO)
+##Demo:
 
+    -sorry but this lib has a lot of bugs i'll check them later...
+    
 ## Installation
 
 Include Libs in your HTML code:
